@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_logo">80dp</dimen>
+    <dimen name="dimen_margin_vertical">30dp</dimen>
+    <dimen name="dimen_margin_horizontal">60dp</dimen>
+    <dimen name="dimen_margin_start_club">20dp</dimen>
+    <dimen name="dimen_margin_left_club">20dp</dimen>
+    <dimen name="dimen_margin_top_club_high">30dp</dimen>
+    <dimen name="dimen_margin_top_club_medium">30dp</dimen>
+    <dimen name="dimen_margin_top_club_low">5dp</dimen>
+    <dimen name="dimen_height_club_name">45sp</dimen>
+    <dimen name="dimen_height_club_location">37sp</dimen>
+    <dimen name="dimen_height_club_data">30sp</dimen>
+    <dimen name="dimen_text_size_club_name">35sp</dimen>
+    <dimen name="dimen_text_size_club_location">25sp</dimen>
+    <dimen name="dimen_text_size_club_data">20sp</dimen>
+    <dimen name="dimen_item_champion_height">50dp</dimen>
+    <dimen name="dimen_item_champion_season_width">170dp</dimen>
+    <dimen name="dimen_item_champion_club_width">180dp</dimen>
+    <dimen name="dimen_item_standings_height">30dp</dimen>
+    <dimen name="dimen_item_standings_position_width">43dp</dimen>
+    <dimen name="dimen_item_standings_club_width">120dp</dimen>
+    <dimen name="dimen_item_standings_width">30dp</dimen>
+    <dimen name="dimen_item_standings_goals_width">64dp</dimen>
+    <dimen name="dimen_margin_standings">10dp</dimen>
+    <dimen name="dimen_item_cards_width">60dp</dimen>
+</resources>

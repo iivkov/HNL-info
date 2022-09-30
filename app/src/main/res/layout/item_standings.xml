@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_item_standings_height"
+    android:layout_marginTop="@dimen/dimen_margin_start_club">
+
+    <TextView
+        android:id="@+id/tv_standings_position"
+        android:layout_width="@dimen/dimen_item_standings_position_width"
+        android:layout_height="@dimen/dimen_item_standings_height"
+        android:layout_marginStart="@dimen/dimen_margin_standings"
+        android:text="@string/position_data"
+        android:textAlignment="center"
+        android:textSize="@dimen/dimen_text_size_club_data" />
+
+    <TextView
+        android:id="@+id/tv_standings_club"
+        android:layout_width="@dimen/dimen_item_standings_club_width"
+        android:layout_height="@dimen/dimen_item_standings_height"
+        android:layout_toEndOf="@id/tv_standings_position"
+        android:text="@string/club_data"
+        android:textSize="@dimen/dimen_text_size_club_data"/>
+
+    <TextView
+        android:id="@+id/tv_standings_matches"
+        android:layout_width="@dimen/dimen_item_standings_width"
+        android:layout_height="@dimen/dimen_item_standings_height"
+        android:layout_toEndOf="@id/tv_standings_club"
+        android:text="@string/number_data"
+        android:textAlignment="center"
+        android:textSize="@dimen/dimen_text_size_club_data" />
+    <TextView
+        android:id="@+id/tv_standings_wins"
+        android:layout_width="@dimen/dimen_item_standings_width"
+        android:layout_height="@dimen/dimen_item_standings_height"
+        android:layout_toEndOf="@id/tv_standings_matches"
+        android:text="@string/number_data"
+        android:textAlignment="center"
+        android:textSize="@dimen/dimen_text_size_club_data" />
+    <TextView
+        android:id="@+id/tv_standings_draws"
+        android:layout_width="@dimen/dimen_item_standings_width"
+        android:layout_height="@dimen/dimen_item_standings_height"
+        android:layout_toEndOf="@id/tv_standings_wins"
+        android:text="@string/number_data"
+        android:textAlignment="center"
+        android:textSize="@dimen/dimen_text_size_club_data" />
+
+    <TextView
+        android:id="@+id/tv_standings_losses"
+        android:layout_width="@dimen/dimen_item_standings_width"
+        android:layout_height="@dimen/dimen_item_standings_height"
+        android:layout_toEndOf="@id/tv_standings_draws"
+        android:text="@string/number_data"
+        android:textAlignment="center"
+        android:textSize="@dimen/dimen_text_size_club_data" />
+
+    <TextView
+        android:id="@+id/tv_standings_goals"
+        android:layout_width="@dimen/dimen_item_standings_goals_width"
+        android:layout_height="@dimen/dimen_item_standings_height"
+        android:layout_toEndOf="@id/tv_standings_losses"
+        android:text="@string/goals_data"
+        android:textAlignment="center"
+        android:textSize="@dimen/dimen_text_size_club_data" />
+
+    <TextView
+        android:id="@+id/tv_standings_points"
+        android:layout_width="@dimen/dimen_item_standings_width"
+        android:layout_height="@dimen/dimen_item_standings_height"
+        android:layout_toEndOf="@id/tv_standings_goals"
+        android:layout_marginEnd="@dimen/dimen_margin_standings"
+        android:text="@string/number_data"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimen_text_size_club_data" />
+
+</RelativeLayout>

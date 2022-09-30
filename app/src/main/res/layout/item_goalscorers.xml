@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/dimen_margin_start_club"
+    android:layout_marginEnd="@dimen/dimen_margin_start_club"
+    android:layout_marginTop="@dimen/dimen_margin_start_club"
+    android:layout_marginBottom="@dimen/dimen_margin_start_club">
+
+    <TextView
+        android:id="@+id/tv_goalscorers_number_of_goals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/number_data"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimen_text_size_club_data" />
+
+    <TextView
+        android:id="@+id/tv_goalscorers_players"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_goalscorers_number_of_goals"
+        android:text="@string/player_data"
+        android:textSize="@dimen/dimen_text_size_club_data"/>
+
+</RelativeLayout>

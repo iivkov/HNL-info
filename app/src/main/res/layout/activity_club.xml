@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.larntech.gridview.ClubActivity">
+
+    <ImageView
+        android:id="@+id/iv_club_logo"
+        android:layout_width="@dimen/dimen_logo"
+        android:layout_height="@dimen/dimen_logo"
+        android:src="@drawable/osijek"
+        android:contentDescription="@string/iv_cd_osijek"
+        android:layout_marginTop="@dimen/dimen_margin_top_club_high"
+        android:layout_marginStart="@dimen/dimen_margin_start_club"/>
+
+    <TextView
+        android:id="@+id/tv_club_name"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen_height_club_name"
+        android:text="@string/tv_osijek_name"
+        android:textSize="@dimen/dimen_text_size_club_name"
+        android:layout_toEndOf="@id/iv_club_logo"
+        android:layout_marginTop="@dimen/dimen_margin_top_club_high"
+        android:layout_marginStart="@dimen/dimen_margin_left_club"/>
+
+    <TextView
+        android:id="@+id/tv_club_location"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen_height_club_location"
+        android:text="@string/tv_location_osijek"
+        android:textSize="@dimen/dimen_text_size_club_location"
+        android:layout_toEndOf="@id/iv_club_logo"
+        android:layout_below="@id/tv_club_name"
+        android:layout_marginStart="@dimen/dimen_margin_left_club" />
+
+    <TextView
+        android:id="@+id/tv_club_established"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen_height_club_data"
+        android:text="@string/tv_club_established"
+        android:textSize="@dimen/dimen_text_size_club_data"
+        android:layout_below="@id/iv_club_logo"
+        android:layout_marginStart="@dimen/dimen_margin_start_club"
+        android:layout_marginTop="@dimen/dimen_margin_top_club_medium"/>
+
+    <TextView
+        android:id="@+id/tv_club_established_data"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_height_club_data"
+        android:text="@string/osijek_established_data"
+        android:textSize="@dimen/dimen_text_size_club_data"
+        android:layout_below="@id/tv_club_location"
+        android:layout_toEndOf="@id/tv_club_established"
+        android:layout_marginStart="@dimen/dimen_margin_start_club"
+        android:layout_marginTop="@dimen/dimen_margin_top_club_medium"
+        android:layout_alignBaseline="@id/tv_club_established"/>
+
+    <TextView
+        android:id="@+id/tv_club_stadium"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen_height_club_data"
+        android:text="@string/tv_club_stadium"
+        android:textSize="@dimen/dimen_text_size_club_data"
+        android:layout_below="@id/tv_club_established"
+        android:layout_marginStart="@dimen/dimen_margin_start_club"
+        android:layout_marginTop="@dimen/dimen_margin_top_club_low"/>
+
+    <TextView
+        android:id="@+id/tv_club_stadium_data"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_height_club_data"
+        android:text="@string/osijek_stadium_data"
+        android:textSize="@dimen/dimen_text_size_club_data"
+        android:layout_below="@id/tv_club_established_data"
+        android:layout_toEndOf="@id/tv_club_established"
+        android:layout_marginStart="@dimen/dimen_margin_start_club"
+        android:layout_marginTop="@dimen/dimen_margin_top_club_medium"
+        android:layout_alignBaseline="@id/tv_club_stadium"/>
+
+    <TextView
+        android:id="@+id/tv_club_stadium_capacity"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen_height_club_data"
+        android:text="@string/tv_club_stadium_capacity"
+        android:textSize="@dimen/dimen_text_size_club_data"
+        android:layout_below="@id/tv_club_stadium"
+        android:layout_marginStart="@dimen/dimen_margin_start_club"
+        android:layout_marginTop="@dimen/dimen_margin_top_club_low"/>
+
+    <TextView
+        android:id="@+id/tv_club_stadium_capacity_data"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_height_club_data"
+        android:text="@string/osijek_stadium_capacity_data"
+        android:textSize="@dimen/dimen_text_size_club_data"
+        android:layout_below="@id/tv_club_stadium_data"
+        android:layout_toEndOf="@id/tv_club_stadium_capacity"
+        android:layout_marginStart="@dimen/dimen_margin_start_club"
+        android:layout_marginTop="@dimen/dimen_margin_top_club_medium"
+        android:layout_alignBaseline="@id/tv_club_stadium_capacity"/>
+
+    <TextView
+        android:id="@+id/tv_club_chairman"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen_height_club_data"
+        android:text="@string/tv_club_chairman"
+        android:textSize="@dimen/dimen_text_size_club_data"
+        android:layout_below="@id/tv_club_stadium_capacity"
+        android:layout_marginStart="@dimen/dimen_margin_start_club"
+        android:layout_marginTop="@dimen/dimen_margin_top_club_low"/>
+
+    <TextView
+        android:id="@+id/tv_club_chairman_data"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_height_club_data"
+        android:text="@string/osijek_chairman_data"
+        android:textSize="@dimen/dimen_text_size_club_data"
+        android:layout_below="@id/tv_club_stadium_capacity_data"
+        android:layout_toEndOf="@id/tv_club_chairman"
+        android:layout_marginStart="@dimen/dimen_margin_start_club"
+        android:layout_marginTop="@dimen/dimen_margin_top_club_medium"
+        android:layout_alignBaseline="@id/tv_club_chairman"/>
+
+    <TextView
+        android:id="@+id/tv_club_manager"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen_height_club_data"
+        android:text="@string/tv_club_manager"
+        android:textSize="@dimen/dimen_text_size_club_data"
+        android:layout_below="@id/tv_club_chairman"
+        android:layout_marginStart="@dimen/dimen_margin_start_club"
+        android:layout_marginTop="@dimen/dimen_margin_top_club_low"/>
+
+    <TextView
+        android:id="@+id/tv_club_manager_data"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_height_club_data"
+        android:text="@string/osijek_manager_data"
+        android:textSize="@dimen/dimen_text_size_club_data"
+        android:layout_below="@id/tv_club_chairman_data"
+        android:layout_toEndOf="@id/tv_club_manager"
+        android:layout_marginStart="@dimen/dimen_margin_start_club"
+        android:layout_marginTop="@dimen/dimen_margin_top_club_medium"
+        android:layout_alignBaseline="@id/tv_club_manager"/>
+
+    <TextView
+        android:id="@+id/tv_club_website"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen_height_club_data"
+        android:text="@string/tv_club_website"
+        android:textSize="@dimen/dimen_text_size_club_data"
+        android:layout_below="@id/tv_club_manager"
+        android:layout_marginStart="@dimen/dimen_margin_start_club"
+        android:layout_marginTop="@dimen/dimen_margin_top_club_low"/>
+
+    <TextView
+        android:id="@+id/tv_club_website_data"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_height_club_data"
+        android:text="@string/osijek_website_data"
+        android:textSize="@dimen/dimen_text_size_club_data"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:layout_below="@id/tv_club_manager_data"
+        android:layout_toEndOf="@id/tv_club_website"
+        android:layout_marginStart="@dimen/dimen_margin_start_club"
+        android:layout_marginTop="@dimen/dimen_margin_top_club_medium"
+        android:layout_alignBaseline="@id/tv_club_website"/>
+
+    <ImageView
+        android:id="@+id/iv_club_stadium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_club_website"
+        android:src="@drawable/osijek_stadion"
+        android:contentDescription="@string/osijek_stadium_data"
+        android:layout_marginStart="@dimen/dimen_margin_start_club"
+        android:layout_marginEnd="@dimen/dimen_margin_start_club"
+        android:layout_marginTop="@dimen/dimen_margin_top_club_low"
+        android:layout_marginBottom="@dimen/dimen_margin_start_club"/>
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_item_champion_height"
+    android:layout_marginTop="@dimen/dimen_margin_start_club">
+
+    <TextView
+        android:id="@+id/tv_season"
+        android:layout_width="@dimen/dimen_item_champion_season_width"
+        android:layout_height="@dimen/dimen_item_champion_height"
+        android:layout_marginStart="@dimen/dimen_margin_start_club"
+        android:text="@string/season_data"
+        android:textSize="@dimen/dimen_height_club_data"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tv_champion_club"
+        android:layout_width="@dimen/dimen_item_champion_club_width"
+        android:layout_height="@dimen/dimen_item_champion_height"
+        android:layout_marginEnd="@dimen/dimen_margin_start_club"
+        android:layout_toEndOf="@id/tv_season"
+        android:text="@string/champion_data"
+        android:textSize="@dimen/dimen_height_club_data"
+        android:textAlignment="center" />
+
+</RelativeLayout>

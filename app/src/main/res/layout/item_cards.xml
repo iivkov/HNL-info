@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_item_standings_height"
+    android:layout_marginTop="@dimen/dimen_margin_start_club">
+
+    <TextView
+        android:id="@+id/tv_cards_position"
+        android:layout_width="@dimen/dimen_item_standings_position_width"
+        android:layout_height="@dimen/dimen_item_standings_height"
+        android:layout_marginStart="@dimen/dimen_margin_standings"
+        android:text="@string/position_data"
+        android:textAlignment="center"
+        android:textSize="@dimen/dimen_text_size_club_data" />
+
+    <TextView
+        android:id="@+id/tv_cards_club"
+        android:layout_width="@dimen/dimen_item_standings_club_width"
+        android:layout_height="@dimen/dimen_item_standings_height"
+        android:layout_toEndOf="@id/tv_cards_position"
+        android:text="@string/club_data"
+        android:textSize="@dimen/dimen_text_size_club_data"/>
+
+    <TextView
+        android:id="@+id/tv_cards_yellow"
+        android:layout_width="@dimen/dimen_item_cards_width"
+        android:layout_height="@dimen/dimen_item_standings_height"
+        android:layout_toEndOf="@id/tv_cards_club"
+        android:text="@string/number_data"
+        android:textAlignment="center"
+        android:textSize="@dimen/dimen_text_size_club_data" />
+    <TextView
+        android:id="@+id/tv_cards_second_yellow"
+        android:layout_width="@dimen/dimen_item_cards_width"
+        android:layout_height="@dimen/dimen_item_standings_height"
+        android:layout_toEndOf="@id/tv_cards_yellow"
+        android:text="@string/number_data"
+        android:textAlignment="center"
+        android:textSize="@dimen/dimen_text_size_club_data" />
+    <TextView
+        android:id="@+id/tv_cards_red"
+        android:layout_width="@dimen/dimen_item_cards_width"
+        android:layout_height="@dimen/dimen_item_standings_height"
+        android:layout_toEndOf="@id/tv_cards_second_yellow"
+        android:text="@string/number_data"
+        android:textAlignment="center"
+        android:textSize="@dimen/dimen_text_size_club_data" />
+
+    <TextView
+        android:id="@+id/tv_cards_overall"
+        android:layout_width="@dimen/dimen_item_cards_width"
+        android:layout_height="@dimen/dimen_item_standings_height"
+        android:layout_toEndOf="@id/tv_cards_red"
+        android:layout_marginEnd="@dimen/dimen_margin_standings"
+        android:text="@string/number_data"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimen_text_size_club_data" />
+
+</RelativeLayout>
